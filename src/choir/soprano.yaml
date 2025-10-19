@@ -1,0 +1,35 @@
+[
+  1|, R:3b, d, g_:2b, a_:2b,
+  2|, { notes: [bb_, c], sustain: -1 }, { note: a_:2b, dynamic: 1, trill: bb_ }, 
+  { note: g_:2b, dynamic: 1, sustain: true }, R, d,
+  3|, g, g, {note: g, sustain: -1}, {note: g, sustain: -1, dynamic: 1 },
+  {beat: 2, notes: [
+  f, g, f, eb, f, d, c, d,
+# 4|
+  eb, f, eb, d, eb, c, bb_, c, d:2b ]}, g_, g:2b
+  +1b, f, { note: e:2b, trill: f }, {note: d:2b, dynamic: 1, sustain: true, level: ~; -1; -2; -3; -4:... }, R:2b,
+  6||,
+  7||,
+  8||,
+  9||,
+  10||,
+  11||,
+  12||,
+  13||,
+  14||,
+  15 |, R:3b, d,  g, g, {note: g, sustain: -1 }, { note: g, sustain: -1, dynamic: 1 },
+  16 |,
+  { beat: 2, notes: [f, g, f, eb, f, d, c, d, eb, f, eb, d, eb, c, bb_, c, 
+# 17 |
+  d, eb, d, c, d, bb_, a_, bb_, c, d, c, bb_, c, a_, g_, a_, 
+# 18 |  
+  b_:2b] }, 
+  g_, c, { note: c, dynamic: 1 }, [ c:2b, {note: b_:2b, trill: {value: c, length: [5, 0]}} ],
+  19 |, { note: c:2b, dynamic: 1 }, R:5b, g_,
+  20 |, c:3b, c, { note: b_:2b, sustain: -3 }, { note: b_:2b, sustain: true },
+  21 |, R, c, c, bb_, a_:3b, c,
+  22 |, d:2b, d, c, b_:3b, d,
+  23 |, eb, eb, eb, d, c:3b, c,
+  24 |, {note: b_:2b, sustain: -3 }, c:2b, c:2b, {note: b_:2b, trill: c},
+  25 |, {note: c:2b, sustain: true, level: ~; -1; -2; -3; -4:... },
+]
