@@ -3,56 +3,56 @@ beat: 4
 transpose: -1
 sustain: -2
 voices:
-  - notes: "file://./choir/tenor.yaml"
+  - notes: file://./choir/tenor.yaml
     instrument: [guitar|harp, harp|bass]
     trill: { length: [0, 5] }
-    transpose: [~, "-12"]
-    level: [~, "-5"]
+    transpose: [~, -12]
+    level: [~, -5]
     dynamic: [~, 2;1:...]
     sustain: [-2, -1]
 
-  - - notes: "file://./choir/soprano.yaml"
+  - - notes: file://./choir/soprano.yaml
       instrument: [pling, flute]
       trill: { length: [3, 0] }
-      transpose: ["+12", ~]
+      transpose: [+12, ~]
       dynamic: [1, 2;1:...]
-      level: ["-7", ~]
+      level: [-7, ~]
     
-    - notes: "file://./choir/alto.yaml"
+    - notes: file://./choir/alto.yaml
       instrument: [pling, harp]
       trill: { length: [3, 0] }
       dynamic: [1, 2;1:...]
-      level: ["-8", ~]
+      level: [-8, ~]
       sustain: [-2, -1]
   
-  - notes: "file://./orchestra/continuo.yaml"
+  - notes: file://./orchestra/continuo.yaml
     instrument: [bass|harp, harp]
-    transpose: { value: ["+12", ~], auto: [false, true] }
+    transpose: { value: [+12, ~], auto: [false, true] }
     sustain: [-2, 3]
-    level: [~, "-6; -7; -8"] 
+    level: [~, -6; -7; -8] 
   
-  - notes: "file://./choir/bass.yaml"
+  - notes: file://./choir/bass.yaml
     instrument: [guitar, harp|guitar]
     trill: { length: [0, 3] }
-    transpose: [~, "-12"]
-    level: [~, "-6"]
+    transpose: [~, -12]
+    level: [~, -6]
     dynamic: [~, 2;1:...]
     sustain: [-1, -2]
 
-  - - notes: "file://./orchestra/viola.yaml"
+  - - notes: file://./orchestra/viola.yaml
       instrument: harp
       transpose: { auto: true }
-      level: [~, "-6"] 
+      level: [~, -6] 
       sustain: [-1, -2]
 
-    - notes: "file://./orchestra/violin-II.yaml"
+    - notes: file://./orchestra/violin-II.yaml
       instrument: [harp|flute, harp|bell]
-      level: [~, "-3"]
+      level: [~, -3]
       sustain: [-1, -2]
 
-    - notes: "file://./orchestra/violin-I.yaml"
+    - notes: file://./orchestra/violin-I.yaml
       instrument: [harp|flute, bit|bell]
       trill: { length: [0, 3] }
-      transpose: "+12"
-      level: [~, "-3"]
+      transpose: +12
+      level: [~, -3]
       sustain: [-1, -2]

@@ -20,7 +20,7 @@
   19 |, g:2b, c, ab, f:2b, d, g,
   20 |, c, c, c, c, d, d, g, f,
   21 |, eb, 
-  {level: "-4"}, f, f, f, c, c, f:2b
+  {level: -4}, f, f, f, c, c, f:2b
   +1b, a, a, a, d, d, g:2b
   +1b, bb, bb, bb, eb, eb, c, c,
   24 |, d, g, g, g, g, g, g, g,

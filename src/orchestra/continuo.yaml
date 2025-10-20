@@ -9,7 +9,7 @@
   6 |, f, g, e:2b, d, {sustain: $reset}, 
   d_, f_, d_, 
   # bass solo, reduce volume
-  {level: "-2"},
+  {level: -2},
   7 |, R, d, f, d, a:2b, R, c,
   8 |, d, c, d, e, f, d, cs, d,
   9 |, e, d, e, cs, d, bb, g, a,

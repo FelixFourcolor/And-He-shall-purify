@@ -7,7 +7,7 @@
   6 |, d^, d, R:3b, a_, d, a_,
   7 ||,
   8 ||,
-  {level: "-4"},
+  {level: -4},
   9  |, R:5b, d, d, cs,
   10 |, R:5b, a, d^, a,
   11 |, R:5b, e, a, e,
@@ -24,7 +24,7 @@
   18 |, b_, g_, c:4b, {note: b_:2b, trill: c},
   19 |, R, c, ab:4b, g:2b
   +2b, f:2b, g, b_, c, d,
-  {level: "-3", beat: 2, sustain: [true, false]}, 
+  {level: -3, beat: 2, sustain: [true, false]}, 
   21 |, eb, d, eb, f, eb, f, d, eb, c, bb_, c, d, c, c, d, eb,
   22 |, f, eb, f, g, f, g, eb, f, d, c, d, eb, d, d, eb, f,
   23 |, g, f, g, ab, g, ab, f, g,
