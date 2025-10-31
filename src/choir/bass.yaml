@@ -4,16 +4,16 @@
   3||,
   4||,
   5 |, R:3b, a, d:2b, e:2b,
-  6 |, { notes: [f, g], sustain: -1 }, { note: e:2b, dynamic: 1, trill: f }, 
+  6 |, { note: [f, g], sustain: -1 }, { note: e:2b, dynamic: 1, trill: f }, 
   { note: d:2b, dynamic: 1, sustain: true }, R, a,
   7 |, d^, d^, { note: d^, sustain: -1 }, { note: d^, dynamic: 1 },
-  { beat: 2, notes: [
+  { beat: 2, note: [
   c^, d^, c^, bb, c^, a, g, a, 
 # 8 |
   bb, c^, bb, a, bb, g, f, g, a, bb, a, g, a, f, e, f, 
 # 9 |
   g, a, g, f, g, e, d, e, f:2b ]}, bb, g, a,
-  10|, { notes: [d^:1b., e^:2], sustain: true }, 
+  10|, { note: [d^:1b., e^:2], sustain: true }, 
   { note: cs^:2b, dynamic: 1, trill: d^, sustain: -1 },
   { note: d^:2b, dynamic: 1, sustain: true, level: ~; -1; -2; -3; -4:... }, R:2b,
   11||,
@@ -22,9 +22,9 @@
   14||,
   15 |, R:7b, g,
   16 |, d^, d^, {note: d^, sustain: -1 }, { note: d^, sustain: -1, dynamic: 1 },
-  {beat: 2, notes: [c^, d^, c^, bb, c^:2b]}, f,
+  {beat: 2, note: [c^, d^, c^, bb, c^:2b]}, f,
   17 |, bb, bb, {note: bb, sustain: -1 }, { note: bb, sustain: -1, dynamic: 1 },
-  {beat: 2, notes: [a, bb, a, g, a:2b]}, fs,
+  {beat: 2, note: [a, bb, a, g, a:2b]}, fs,
   18 |, g:2b, eb:2b, [d, c, d, g],
   19 |, {note: c:3b, sustain: -3 }, f, {note: bb_:3b, sustain: -3 }, bb,
   20 |, {note: ab:3b, sustain: -3 }, ab, {note: g:2b, sustain: -3}, {note: g:2b, sustain: true},

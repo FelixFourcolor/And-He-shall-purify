@@ -10,7 +10,7 @@
   9 ||,
   10 |, R:7b, a,
   11 |, d^, d^, { note: d^, sustain: -1 }, { note: d^, dynamic: 1 },
-  { beat: 2, notes: [
+  { beat: 2, note: [
   c^, d^, c^, bb, c^, a, g, a, 
 # 12 |
   bb, c^, bb, a, bb, g, f, g, a:2b ], sustain: -1 },
@@ -21,7 +21,7 @@
   16||,
   17 |, R:7b, d^,
   18 |, g^, g^, { note: g^, sustain: -1 }, { note: g^, dynamic: 1, sustain: -1 },
-  {beat: 2, notes: [
+  {beat: 2, note: [
   f^, g^, f^, eb^, f^, d^, c^, d^, 
 # 19 |
   eb^, f^, eb^, d^, eb^, c^, bb, c^, d^, eb^, d^, c^, d^, bb, eb^, d^,
