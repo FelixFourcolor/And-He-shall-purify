@@ -1,2 +1,4 @@
 .vscode
-schema.json
+compiled.json
+World
+Makefile

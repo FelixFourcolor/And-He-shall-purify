@@ -7,31 +7,32 @@
   6 |, d^, d, R:3b, a_, d, a_,
   7 ||,
   8 ||,
-  {level: -4},
+  {level: -4, notes: [
   9  |, R:5b, d, d, cs,
   10 |, R:5b, a, d^, a,
   11 |, R:5b, e, a, e,
-  12 |, R:5b, f, a, f,
+  12 |, R:5b, f, a, f 
+  ]},
   13||,
   14||,
-  {level: $reset},
   15 |, R:3b, d, g, g, g, g,
   16 |,
-  {beat: 2, sustain: true}, 
-  f, g, f, eb, f, d, c, d, eb, f, eb, d, eb, c, bb_, c, 
-  17 |, d, eb, d, c, d, bb_, a_, bb_, c, d, c, bb_, c, a_, g_, a_, 
-  {beat: $reset, sustain: $reset},
+  {sustain: true, notes: [
+  f' g' f' eb' f' d' c' d' eb' f' eb' d' eb' c' bb_' c',
+  17 |, d' eb' d' c' d' bb_' a_' bb_' c' d' c' bb_' c' a_' g_' a_',
+  ]}, 
   18 |, b_, g_, c:4b, {note: b_:2b, trill: c},
   19 |, R, c, ab:4b, g:2b
   +2b, f:2b, g, b_, c, d,
-  {level: -3, beat: 2, sustain: [true, false]}, 
-  21 |, eb, d, eb, f, eb, f, d, eb, c, bb_, c, d, c, c, d, eb,
-  22 |, f, eb, f, g, f, g, eb, f, d, c, d, eb, d, d, eb, f,
-  23 |, g, f, g, ab, g, ab, f, g,
-  {beat: $reset, sustain: $reset}, eb, c, f:2b
+  level: -3,
+  {sustain: [true, false], notes: [
+  21 |, eb' d' eb' f' eb' f' d' eb' c' bb_' c' d' c' c' d' eb',
+  22 |, f' eb' f' g' f' g' eb' f' d' c' d' eb' d' d' eb' f',
+  23 |, g' f' g' ab' g' ab' f' g'
+  ]},
+  eb, c, f:2b
   +1b, f, eb, eb,
-  {beat: 2, sustain: [true, false]}, d, c, d, eb, d, eb, c, d, 
-  {beat: $reset, sustain: $reset},
+  {sustain: [true, false], note: d' c' d' eb' d' eb' c' d'},
   25 |, eb, g, c^, g, R:...,
   26 |
 ]

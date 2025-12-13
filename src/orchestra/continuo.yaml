@@ -5,16 +5,17 @@
   4 |, g, f, g, a, bb:2b, R, g,
   5 |, a, d, a, a_, 
   # doubling bass, reduce sustain
-  {sustain: [1, 2]}, d:2b, e:2b,
-  6 |, f, g, e:2b, d, {sustain: $reset}, 
-  d_, f_, d_, 
+  {sustain: [1, 2], notes: [
+  d:2b, e:2b,
+  6 |, f, g, e:2b, d
+  ]}, d_, f_, d_, 
   # bass solo, reduce volume
-  {level: -2},
+  {level: -2, notes: [
   7 |, R, d, f, d, a:2b, R, c,
   8 |, d, c, d, e, f, d, cs, d,
   9 |, e, d, e, cs, d, bb, g, a,
-  10|, d^, g, a,  a_, d:2b, R, 
-  {level: $reset}, d_,
+  10|, d^, g, a,  a_, d:2b,
+  ]}, R, d_,
   11|, d, e, f, g, a:2b, R, c,
   12|, d, c, d, e, f:2b, R, f,
   13|, eb:3b, eb, d, c, d, g_,
