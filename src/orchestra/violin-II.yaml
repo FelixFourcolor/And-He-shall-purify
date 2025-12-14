@@ -1,37 +1,35 @@
 [
   1||,
-  2 |, R:5b, bb, d^, bb,
+  2 |, R:5b, bb_, d, bb_,
   3||,
-  4 |, R:5b, bb, d^, bb,
-  5 |, a:3b, e, f, f^, g^, g,
-  6 |, a:2b, R:3b, f, a, f,
-  7 ||,
-  8 ||,
-  {level: -4, notes: [
-  9  |, R:5b, f, bb, a,
-  10 |, R:5b, f^, a^, f^,
-  11 |, R:5b, c, e, c,
-  12 |, R:5b, d^, f^, d^,
+  4 |, R:5b, bb_, d, bb_,
+  5 |, a_:3b, e_, f_, f, g, g_,
+  6 |, a_:2b, R:3b, f_, a_, f_,
+  7||,
+  8||,
+  {level: -5, notes: [
+  9 |, R:5b, f_, bb_, a_,
+  10|, R:5b, f, a, f,
+  11|, R:5b, c_, e_, c_,
+  12|, R:5b, d, f, d,
   ]},
   13||,
   14||,
-  15 |, R:3b, a, bb, bb, d^, bb,
-  16 |, a, f, bb:4b, a:2b
-  +2b, g:4b, fs, d^,
-  18 |, g^, g^, g^, g^,
-  {sustain: true, notes: [
-  f^' g^' f^' eb^' f^' d^' c^' d^',
-  19 |, eb^' f^' eb^' d^' eb^' c^' bb' c^' d^' eb^' d^' c^' d^' bb' eb^' d^',
-  20 |, c^' b' c^' d^' c^' eb^' d^' c^'
-  ]}, b, g, a, b,
-  level: -3,
-  {sustain: true, notes: [
-  21 |, c^' b' c^' d^' c^' d^' bb' c^' a' g' a' bb' a' a' bb' c^',
-  22 |, d^' c^' d^' eb^' d^' eb^' c^' d^' b' a' b' c^' b' b' c^' d^',
-  23 |, eb^' d^' eb^' f^' eb^' f^' d^' eb^' c^' b' c^' d^' c^' eb^' d^' c^',
-  ]},
-  24 |, b, b^, c^^, c^^, c^^, c^^,
-  {sustain: [true, false], note: b^' c^^' a^' b^'},
-  25 |, c^^, eb^, g^, eb^, R:...,
-  26 |
+  15|, R:3b, a_, bb_, bb_, d, bb_,
+  16|, a_, f_, bb_:4b, a_:2b
+  +2b, g_:4b, fs_, d,
+  18|, g, g, g, g,
+  f' g' f' eb' f' d' c' d',
+  19|, eb' f' eb' d' eb' c' bb_' c' d' eb' d' c' d' bb_' eb' d',
+  20|, c' b_' c' d' c' eb' d' c'
+  b_, g_, a_, b_,
+  [ level: [~, -2],
+  21|, c' b_' c' d' c' d' bb_' c' a_' g_' a_' bb_' a_' a_' bb_' c',
+  22|, d' c' d' eb' d' eb' c' d' b_' a_' b_' c' b_' b_' c' d',
+  23|, eb' d' eb' f' eb' f' d' eb' c' b_' c' d' c' eb' d' c',
+  24|, b_, b, c^, c^, c^, c^,
+  b' c^' a' b',
+  25|, c^, eb, g, eb, R:...,
+  ],
+  26|
 ]

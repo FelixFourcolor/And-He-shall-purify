@@ -4,36 +4,37 @@
   3 |, R, g_, bb_, g_, d:2b, R, f,
   4 |, g, f, g, a, bb:2b, R, g,
   5 |, a, d, a, a_, 
-  # doubling bass, reduce sustain
-  {sustain: [1, 2], notes: [
+  [ sustain: [1], # doubling bass
   d:2b, e:2b,
   6 |, f, g, e:2b, d
-  ]}, d_, f_, d_, 
-  # bass solo, reduce volume
-  {level: -2, notes: [
+  ], d_, f_, d_, 
+  [ level: [~, -2], # bass solo, reduce volume
   7 |, R, d, f, d, a:2b, R, c,
   8 |, d, c, d, e, f, d, cs, d,
   9 |, e, d, e, cs, d, bb, g, a,
   10|, d^, g, a,  a_, d:2b,
-  ]}, R, d_,
+  ], R, d_,
   11|, d, e, f, g, a:2b, R, c,
   12|, d, c, d, e, f:2b, R, f,
   13|, eb:3b, eb, d, c, d, g_,
   14|, c:3b, f_, bb_:3b, eb,
   15|, a_:2b, d, fs, g_:2b, bb_,
-  {sustain: [1, 2]}, g,
+  [ sustain: [-3], # doubling bass, 
+  g,
   16|, d^, d^, d^, d^, c^:3b, f,
-  17|, bb, bb, bb, bb, a:3b, 
-  {sustain: [2, 3]}, fs,
+  17|, bb, bb, bb, bb, a:3b, fs,
   18|, g:2b, eb:2b, d, c, d, g,
   19|, c:3b, f, bb_:3b, bb,
-  20|, ab:4b, {sustain: $reset},
+  20|, sustain: [3], ab:4b 
+  ],
   g, f, eb, d,
   21|, c,
-  {sustain: [1, 2]}, c, d, eb, f:3b, eb,
-  22 |, d:2b, eb, f, g:3b, f,
-  23 |, eb, eb, f, g, ab:2b, ab:2b,
-  24 |, g:2b, c:2b, g:3b, g,
-  25 |, c:2b, R:...,
-  26 |
+  [ sustain: [1], # doubling bass 
+  c, d, eb, f:3b, eb,
+  22|, d:2b, eb, f, g:3b, f,
+  23|, eb, eb, f, g, ab:3b, ab,
+  24|, g:2b, c:2b, g:3b, g,
+  25|, c:2b
+  ], R:...,
+  26|
 ]
