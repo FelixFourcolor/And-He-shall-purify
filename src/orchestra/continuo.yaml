@@ -35,6 +35,24 @@
   23|, eb, eb, f, g, ab:3b, ab,
   24|, g:2b, c:2b, g:3b, g,
   25|, c:2b
-  ], R:...,
-  26|
+  ], R, c^, ab, eb, f, g, 
+  26|, c^, f, g, g_, c, c^, b, g,
+  27|, c^, f, g, g_, c, 
+  [ level: [~, -2], # bass solo, reduce volume
+  bb_, a_, f_,
+  28|, g_, f_, g_, c, f:2b, R, d,
+  29|, bb_:2b, 
+  ], R, c, d, a, bb, c^,
+  30|, f, bb, c^, a_, f_, f, d^, bb,
+  31|, c^, bb, c^, f, bb, a, bb, d,
+  32|, eb, d, eb, 
+  [ sustain: [1], # doubling bass
+  f, g:2b, a:2b,
+  33|, bb, eb, f:1b., eb', d
+  ], bb, a, f,
+  34|, bb, eb, f,
+  [ sustain: [1], # doubling bass
+  f_, g_:2b, a_:2b,
+  35|, bb_, eb, f, f_, d:2b
+  ], 
 ]

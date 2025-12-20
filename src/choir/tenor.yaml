@@ -27,5 +27,14 @@
   23|, bb, bb, eb^, eb^, [sustain: -1, eb^:2b, c^:2b],
   24|, {note: d^:2b, sustain: -2}, {note: eb^:2b, sustain: -1}, {note: d^:3b, sustain: [-2, -1]}, d^,
   25|, {note: eb^:2b, sustain: true, level: -1; -3; -5; -7}, R:...,
-  26|
+  26|, R:3b, b, g^:2b, d^:2b,
+  27|, eb^--f^, [dynamic: 1, sustain: -1, d^:2b, {note: c^:2b, sustain: true, level: -1; -3; -5; -7}], R:...,
+  28||,
+  29|, R:3b, g, bb--c^, d^--e^,
+  30|, f^--d^, [dynamic: 1, sustain: -1, e^:2b, {note: c^:2b, sustain: true, level: -1; -3; -5; -7}], R:...,
+  31||,
+  32|, R:3b,  c^, [sustain: -1, eb^:2b, eb^:2b],
+  33|, {note: bb:3b, sustain: [-2, -1]}, a, {note: d^:2b, sustain: true, dynamic: 1, level: -1; -3; -5; -7}, R:...,
+  34|, R:3b, c^, [sustain: -1, bb:2b, f^:2b],
+  35|, d^--bb, [dynamic: 1, f^--eb^, {note: d^:2b, sustain: true, level: -1; -3; -5; -7}], R:...,
 ]

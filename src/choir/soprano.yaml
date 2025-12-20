@@ -26,5 +26,17 @@
   22|, {note: d:2b, sustain: -1}, d, c, {note: b_:3b, sustain: [-2, -1]}, d,
   23|, eb, eb, eb, d, {note: c:3b, sustain: [-2, -1]}, c,
   24|, {note: b_:2b, sustain: -2 }, [sustain: -1, c:2b, c:2b, b_:2b],
-  25|, {note: c:2b, sustain: true, level: -1; -3; -5; -7}
+  25|, {note: c:2b, sustain: true, level: -1; -3; -5; -7},
+  R, g, c:2b, d:2b,
+  26|, eb--f, { note: d:2b, dynamic: 1, trill: eb },
+  {note: c:2b, sustain: true, dynamic: 1, level: -1; -3; -5; -7 }, R:...,
+  27||,
+  28||,
+  29||,
+  30|, R:3b, c, f, f, [dynamic: 1, f, f],
+  31|, eb'--f'--eb'--d'--eb'--c'--bb_'--c'-- d'--eb'--d'--c'--d'--bb_'--a_'--bb_'--
+  c'--d'--c'--bb_'--c'--a_'--g_'--a_'--bb_:2b, c:2b,
+  33|, d--eb, [dynamic: 1, {note: c:2b, trill: d}, {note: bb_:2b, sustain: true, level: -1; -3; -5; -7}], R:2b,
+  34|, R:3b, f, bb_:2b, c:2b,
+  35|, d--eb, [dynamic: 1, sustain: -1, {note: c:2b, trill: d}, {note: bb_:2b, sustain: true, level: -1; -3; -5; -7}], R:...,
 ]

@@ -50,7 +50,7 @@ voices:
       instrument: [pling, harp]
       trill: { length: [3, 0] }
       dynamic: [~, 2;1:...]
-      level: [-7, ~; -3:...]
+      level: [-8, ~; -3:...]
       sustain: [-1, true]
 
     - notes: file://./orchestra/viola.yaml
