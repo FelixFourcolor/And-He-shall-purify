@@ -9,16 +9,16 @@
   8 ||,
   9 ||,
   10|, R:7b, a,
-  11|, d^, d^, [dynamic: 1, d^, d^],
+  11|, d^, d^, d^, d^,
   c^'--d^'--c^'--bb'--c^'--a'--g'--a'--
   bb'--c^'--bb'--a'--bb'--g'--f'--g'--a,
   { note: a, dynamic: 1 }, d^:2b
   +2b -- c^:4b -- bb:2b
   +2b -- a:4b, g:2b,
-  15|, {note: g:2b, sustain: true}, {note: fs:2b, dynamic: 1, trill: g}, { note: g:2b, dynamic: 1, level: -1; -3; -5; -7}, R:2b,
+  15|, {note: g:2b, sustain: true}, {note: fs:2b, dynamic: 1, trill: g}, { note: g:2b, dynamic: 1, level: -3; -4; -5; -6}, R:2b,
   16||,
   17|, R:7b, d^,
-  18|, g^, g^, [ dynamic: 1, g^, g^ ],
+  18|, g^, g^, g^, g^,
   f^'--g^'--f^'--eb^'--f^'--d^'--c^'--d^'--
   eb^'--f^'--eb^'--d^'--eb^'--c^'--bb'--c^'--d^'--eb^'--d^'--c^'--d^'--bb'--eb^'--d^'--
   c^, c^, c^, c^, {note: d^:2b, sustain: -2}, {note: d^:2b, sustain: true},
@@ -26,15 +26,21 @@
   22|, {note: f^:2b, sustain: -1}, f^, eb^, {note: d^:3b, sustain: [-2, -1]}, d^,
   23|, bb, bb, eb^, eb^, [sustain: -1, eb^:2b, c^:2b],
   24|, {note: d^:2b, sustain: -2}, {note: eb^:2b, sustain: -1}, {note: d^:3b, sustain: [-2, -1]}, d^,
-  25|, {note: eb^:2b, sustain: true, level: -1; -3; -5; -7}, R:...,
+  25|, {note: eb^:2b, sustain: true, level: -3; -4; -5; -6}, R:...,
   26|, R:3b, b, g^:2b, d^:2b,
-  27|, eb^--f^, [dynamic: 1, sustain: -1, d^:2b, {note: c^:2b, sustain: true, level: -1; -3; -5; -7}], R:...,
+  27|, eb^--f^, [dynamic: 1, sustain: -1, d^:2b, {note: c^:2b, sustain: true, level: -3; -4; -5; -6}], R:...,
   28||,
   29|, R:3b, g, bb--c^, d^--e^,
-  30|, f^--d^, [dynamic: 1, sustain: -1, e^:2b, {note: c^:2b, sustain: true, level: -1; -3; -5; -7}], R:...,
+  30|, f^--d^, [dynamic: 1, sustain: -1, e^:2b, {note: c^:2b, sustain: true, level: -3; -4; -5; -6}], R:...,
   31||,
   32|, R:3b,  c^, [sustain: -1, eb^:2b, eb^:2b],
-  33|, {note: bb:3b, sustain: [-2, -1]}, a, {note: d^:2b, sustain: true, dynamic: 1, level: -1; -3; -5; -7}, R:...,
+  33|, {note: bb:3b, sustain: [-2, -1]}, a, {note: d^:2b, sustain: true, dynamic: 1, level: -3; -4; -5; -6}, R:...,
   34|, R:3b, c^, [sustain: -1, bb:2b, f^:2b],
-  35|, d^--bb, [dynamic: 1, f^--eb^, {note: d^:2b, sustain: true, level: -1; -3; -5; -7}], R:...,
+  35|, d^--bb, [dynamic: 1, f^--eb^, {note: d^:2b, sustain: true, level: -3; -4; -5; -6}], R:...,
+  36|, R:7b, a,
+  37|, c^, c^, c^, c^, bb, a, bb, g,
+  38|, [dynamic: 1, sustain: -1, a:2b, {note: a:2b, sustain: true, level: -3; -4; -5; -6}], R:...,
+  39|, R:3b, d^, bb:2b, c^:2b,
+  40|, d^--g^, [dynamic: 1, {note: fs^:2b, trill: g^}, {note: g^:2b, sustain: true, level: -3; -4; -5; -6}], R:...,
+  41|
 ]

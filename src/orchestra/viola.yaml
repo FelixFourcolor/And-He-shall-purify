@@ -20,7 +20,7 @@
   19|, g:2b, c, ab, f:2b, d, g,
   20|, c, c, c, c, d, d, g, f,
   21|, eb, 
-  [ level: [~, -2],
+  [ level: [~, -3],
   f, f, f, c, c, f:2b
   +1b, a, a, a, d, d, g:2b
   +1b, bb, bb, bb, eb, eb, c, c,
@@ -36,9 +36,13 @@
   32||,
   33|, R:3b, c, d:2b, f:2b,
   34|, f, g, c, c, eb, g, f:2b,
-  35|, bb:2b, f:2b, f:2b, 
-  [ level: [~, -2],
-  R, f,
-  36|, f
-  ]
+  35|, bb:2b, f:2b, f, R:2b, f,
+  [ sustain: {max: 2},
+  36|, f:2b, R:2b, a:2b, R:2b,
+  37|, g:2b, R:2b, g:2b, R:2b,
+  ],
+  38|, a, d, fs, a, R:...,
+  39|, R:3b, d, d:2b, a:2b,
+  40|, g:2b, c^:2b, d, R:...,
+  41|
 ]

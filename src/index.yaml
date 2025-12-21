@@ -8,7 +8,7 @@ voices:
       instrument: [guitar|harp, harp|bass]
       trill: { length: [3, 0] }
       transpose: [~, -12]
-      level: [~; -3:..., -3]
+      level: [~; -3:..., -2]
       dynamic: [~, 2;1:...]
       sustain: [-1, true]
     
@@ -19,12 +19,6 @@ voices:
       level: [~; -3:..., -6]
       dynamic: [~, 2;1:...]
       sustain: [-1, true]
-
-    - notes: file://./orchestra/violin-I.yaml
-      instrument: [flute, bit|bell]
-      trill: { length: [0, 3] }
-      transpose: [~, +12]
-      level: [~, -2]
 
     - notes: file://./orchestra/violin-II.yaml
       instrument: [harp|flute, harp|bell]
@@ -43,19 +37,26 @@ voices:
       trill: { length: [3, 0] }
       transpose: [+12, ~]
       dynamic: [~, 2;1:...]
-      level: [-5, ~; -3:...]
+      level: [-6, ~; -3:...]
       sustain: [-1, true]
     
     - notes: file://./choir/alto.yaml
       instrument: [pling, harp]
       trill: { length: [3, 0] }
       dynamic: [~, 2;1:...]
-      level: [-8, ~; -3:...]
+      level: [-7, ~; -3:...]
       sustain: [-1, true]
+
+    - notes: file://./orchestra/violin-I.yaml
+      instrument: [flute|harp, bit|bell]
+      trill: { length: [0, 3] }
+      transpose: [~, +12]
+      level: [~, -2]
+      sustain: [true, -1]
 
     - notes: file://./orchestra/viola.yaml
       instrument: harp
       transpose: { auto: true }
-      level: [~, -4] 
+      level: [~, -5] 
       dynamic: [~, 2;1:...]
       sustain: [-1, true]

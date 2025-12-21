@@ -4,7 +4,7 @@
   3 |, R, g_, bb_, g_, d:2b, R, f,
   4 |, g, f, g, a, bb:2b, R, g,
   5 |, a, d, a, a_, 
-  [ sustain: [1], # doubling bass
+  [ sustain: {max: [2, ~]}, # doubling bass
   d:2b, e:2b,
   6 |, f, g, e:2b, d
   ], d_, f_, d_, 
@@ -19,15 +19,15 @@
   13|, eb:3b, eb, d, c, d, g_,
   14|, c:3b, f_, bb_:3b, eb,
   15|, a_:2b, d, fs, g_:2b, bb_,
-  [ sustain: [-3], # doubling bass, 
+  [ sustain: {max: [2, ~]}, # doubling bass 
   g,
   16|, d^, d^, d^, d^, c^:3b, f,
   17|, bb, bb, bb, bb, a:3b, fs,
   18|, g:2b, eb:2b, d, c, d, g,
   19|, c:3b, f, bb_:3b, bb,
-  20|, sustain: [3], ab:4b 
+  20|, ab:4b 
   ],
-  g, f, eb, d,
+  [dynamic: 2, g, f, eb, d],
   21|, c,
   [ sustain: [1], # doubling bass 
   c, d, eb, f:3b, eb,
@@ -46,13 +46,27 @@
   30|, f, bb, c^, a_, f_, f, d^, bb,
   31|, c^, bb, c^, f, bb, a, bb, d,
   32|, eb, d, eb, 
-  [ sustain: [1], # doubling bass
+  [ sustain: {max: [2, ~]}, # doubling bass
   f, g:2b, a:2b,
   33|, bb, eb, f:1b., eb', d
   ], bb, a, f,
   34|, bb, eb, f,
-  [ sustain: [1], # doubling bass
+  [ sustain: {max: [2, ~]}, # doubling bass
   f_, g_:2b, a_:2b,
-  35|, bb_, eb, f, f_, d:2b
-  ], 
+  35|, bb_, eb, f, f_, d:2b, R, f,
+  36|, bb, bb, bb, bb, a, g, a, f,
+  37|, c^:2b, c:2b, g:2b., g,
+  38|, d:2b, d
+  ], c, bb_, g, f, d,
+  39|, g, c, d,
+  [ sustain: {max: [2, ~]}, # doubling bass
+  d^, g:2b, a:2b,
+  40|, bb, c^, a:2b, g
+  ], g, f, d,
+  41|, g, c, d, d^, bb, a, bb, 
+  [ sustain: {max: [2, ~]}, # doubling bass
+  g,
+  42|, d^, d^, d^, d^, c^, bb, c^, f,
+  43|, bb:3b, g, a:2b, d
+  ]
 ]
