@@ -37,7 +37,7 @@ voices:
       trill: { length: [3, 0] }
       transpose: [+12, ~]
       dynamic: [~, 2;1:...]
-      level: [-6, ~; -3:...]
+      level: [-7, ~; -3:...]
       sustain: [-1, true]
     
     - notes: file://./choir/alto.yaml

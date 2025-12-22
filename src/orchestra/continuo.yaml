@@ -64,9 +64,15 @@
   40|, bb, c^, a:2b, g
   ], g, f, d,
   41|, g, c, d, d^, bb, a, bb, 
-  [ sustain: {max: [2, ~]}, # doubling bass
+  [ # also doubling bass, but keep sustaining sounds better
   g,
   42|, d^, d^, d^, d^, c^, bb, c^, f,
   43|, bb:3b, g, a:2b, d
-  ]
+  ], fs,
+  44|, g_:2b, g, eb, d:2b, d, g,
+  45|, c:3b, f, bb_:3b, eb,
+  46|, a_:2b, d:2b, g_, g, bb, g,
+  47|, d:2b, R, bb, c:2b, R, f_,
+  48|, bb_:2b, R, eb, c:2b, R, d,
+  49|, g_:3b
 ]

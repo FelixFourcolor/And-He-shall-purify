@@ -7,7 +7,7 @@
   6 |, a_:2b, R:3b, f_, a_, f_,
   7||,
   8||,
-  [ level: -4, 
+  [ level: -3, 
   9 |, R:5b, f_, bb_, a_,
   10|, R:5b, f, a, f,
   11|, R:5b, c_, e_, c_,
@@ -51,10 +51,7 @@
   40|, d, eb, c:2b, bb_, R:...,
   [ sustain: {max: 2},
   41|, bb_:2b, R, a_, bb_:2b, R:...
-  ],
-  [
-    instrument: [$delete], 
-    level: -16, # doubling alto
+  ], [ dynamic: 0, # doubling alto (unnecessary)
   42|, R:2b, bb_:4b, ab_:2b
   +2b, g_:4b, fs_:2b,
   ],
