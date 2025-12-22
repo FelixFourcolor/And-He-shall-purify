@@ -48,5 +48,9 @@
   ],
   39|, R:3b, fs, g:2b, fs:2b,
   40|, g:2b, {note: fs:2b, trill: g}, g, R:...,
-  41|
+  [ level: [~, -3], sustain: {max: 2},
+  41|, d:2b, R, fs, g:2b, R:...
+  ],
+  42||,
+  43|, R:7b 
 ]

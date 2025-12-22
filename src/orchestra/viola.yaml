@@ -44,5 +44,14 @@
   38|, a, d, fs, a, R:...,
   39|, R:3b, d, d:2b, a:2b,
   40|, g:2b, c^:2b, d, R:...,
-  41|
+  [ 
+    sustain: true, 
+    dynamic: 1,
+    # doubling tenor
+    instrument: [~, $delete],
+    level: -5,
+  41|, R:3b, d, g, g, g, g,
+  42|, f'--g'--f'--eb'--f'--d'--c'--d', eb'--f'--eb'--d'--eb'--c'--bb_'--c', d'--eb'--d'--c'--d'--bb_'--a_'--bb_', c'--d'--c'--bb_'--c'--a_'--g_'--a_',
+  44|, bb_:2b
+  ]
 ]

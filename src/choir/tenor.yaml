@@ -20,7 +20,7 @@
   17|, R:7b, d^,
   18|, g^, g^, g^, g^,
   f^'--g^'--f^'--eb^'--f^'--d^'--c^'--d^'--
-  eb^'--f^'--eb^'--d^'--eb^'--c^'--bb'--c^'--d^'--eb^'--d^'--c^'--d^'--bb'--eb^'--d^'--
+  eb^'--f^'--eb^'--d^'--eb^'--c^'--bb'--c^'-- d^'--eb^'--d^'--c^'--d^'--bb'--eb^'--d^'--
   c^, c^, c^, c^, {note: d^:2b, sustain: -2}, {note: d^:2b, sustain: true},
   21|, R, eb^, eb^, d^, {note: c:3b, sustain: [-2, -1]}, eb^,
   22|, {note: f^:2b, sustain: -1}, f^, eb^, {note: d^:3b, sustain: [-2, -1]}, d^,
@@ -42,5 +42,15 @@
   38|, [dynamic: 1, sustain: -1, a:2b, {note: a:2b, sustain: true, level: -3; -4; -5; -6}], R:...,
   39|, R:3b, d^, bb:2b, c^:2b,
   40|, d^--g^, [dynamic: 1, {note: fs^:2b, trill: g^}, {note: g^:2b, sustain: true, level: -3; -4; -5; -6}], R:...,
-  41|
+  41|, R:3b, d^, g^, g^, g^, [dynamic: 1, g^],
+  [ sustain: true, dynamic: 1,
+  42|, f^' g^' f^' eb^' f^' d^' c^' d^', eb^' f^' eb^' d^' eb^' c^' bb' c^', d^' eb^' d^' c^' d^' bb' a' bb', c^' d^' c^' bb' c^' a' g' a',
+  level: -3,
+  bb' c^' bb' a' bb' d^' c^' d^' eb^' d^',
+  ], [ level: -3,
+  d^, d^, {note: d^, dynamic: 1},
+  45|, {note: c^:2b, sustain: -1}, {note: c^:2b, dynamic: 1, sustain: true, level: -3; -4; -5; -6}, R:...
+  ],
+  46||,
+  47|
 ]

@@ -49,5 +49,14 @@
   38|, d, fs_, a_, d_, R:...,
   39|, R:3b, a_, bb_:2b, c:2b,
   40|, d, eb, c:2b, bb_, R:...,
-  41|
+  [ sustain: {max: 2},
+  41|, bb_:2b, R, a_, bb_:2b, R:...
+  ],
+  [
+    instrument: [$delete], 
+    level: -16, # doubling alto
+  42|, R:2b, bb_:4b, ab_:2b
+  +2b, g_:4b, fs_:2b,
+  ],
+  44|
 ]

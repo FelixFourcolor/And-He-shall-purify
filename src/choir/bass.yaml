@@ -45,5 +45,11 @@
   [sustain: [-2, -1], g:2b.], g,
   38|, [dynamic: 1, sustain: -1, d:2b, {note: d:2b, sustain: true, level: -3; -4; -5; -6}], R:...,
   39|, R:3b, d^, [sustain: -1, g:2b, a:2b],
-  40|, bb--c^, [dynamic: 1, sustain: -1, a:2b, {note: g:2b, sustain: true, level: -3; -4; -5; -6}], R:...,
+  40|, bb--c^, [dynamic: 1, sustain: -1, a:2b, {note: g:2b, sustain: true, level: -3; -4; -5; -6}], R:2b,
+  [ dynamic: 2;,
+  41|, R:7b, g,
+  42|, d^, d^, d^, d^, c^, bb, c^, f,
+  43|, bb, bb, bb, g, a:2b, {note: d:2b, dynamic: 1, sustain: true, level: ~; -1; -2; -3},
+  ],
+  44|
 ]
