@@ -7,7 +7,7 @@
   6 |, a_:2b, R:3b, f_, a_, f_,
   7||,
   8||,
-  [ level: -3, 
+  [ level: -2, 
   9 |, R:5b, f_, bb_, a_,
   10|, R:5b, f, a, f,
   11|, R:5b, c_, e_, c_,
@@ -55,5 +55,18 @@
   42|, R:2b, bb_:4b, ab_:2b
   +2b, g_:4b, fs_:2b,
   ],
-  44|
+  44|, d_' c' bb_' a_' bb_' d' c' eb' a_:2b, d:2b,
+  45||,
+  [ instrument: [~, bit],
+  46|, R:5b, d, g, g,
+  47|, f' g' f' eb' f' d' c' d', eb' f' eb' d' eb' c' bb_' c', 
+  48|, d' eb' d' c' d' bb_' a_' bb_', c' d' c' bb_' c' a_' g_' a_',
+  49|, bb_' c' bb_' a_' bb_' g_' f_' g_', 
+  instrument: $reset,
+  a_' bb_' a_' g_' a_' f_' bb_' a_',
+  50|, g_' fs_' g_' a_' g_' bb_' a_' g_' fs_,
+  ], fs, g, bb_,
+  51|, a_' bb_' g_' a_' bb_' c' a_' g_' fs_,
+  [sustain: true, dynamic: [~, 2;], d, e, fs],
+  52| 
 ]

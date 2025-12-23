@@ -26,8 +26,7 @@
   18|, g:2b, eb:2b, d, c, d, g,
   19|, c:3b, f, bb_:3b, bb,
   20|, ab:4b 
-  ],
-  [dynamic: 2, g, f, eb, d],
+  ], [dynamic: 2, g, f, eb, d],
   21|, c,
   [ sustain: [1], # doubling bass 
   c, d, eb, f:3b, eb,
@@ -64,7 +63,7 @@
   40|, bb, c^, a:2b, g
   ], g, f, d,
   41|, g, c, d, d^, bb, a, bb, 
-  [ # also doubling bass, but keep sustaining sounds better
+  [ sustain: {max: [2, ~]}, # doubling bass
   g,
   42|, d^, d^, d^, d^, c^, bb, c^, f,
   43|, bb:3b, g, a:2b, d
@@ -74,5 +73,11 @@
   46|, a_:2b, d:2b, g_, g, bb, g,
   47|, d:2b, R, bb, c:2b, R, f_,
   48|, bb_:2b, R, eb, c:2b, R, d,
-  49|, g_:3b
+  49|, g_:3b, c, f:3b, d,
+  50|, eb:3b, c, d:2b, 
+  [ sustain: {max: [2, ~]}, # doubling bass
+  g_:2b,
+  51|, bb:2b, g_:2b
+  ], [dynamic: [2], d, c, bb_, a_],
+  52|, g_
 ]

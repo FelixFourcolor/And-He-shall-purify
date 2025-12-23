@@ -20,13 +20,11 @@
   19|, g:2b, c, ab, f:2b, d, g,
   20|, c, c, c, c, d, d, g, f,
   21|, eb, 
-  [ level: [~, -3],
   f, f, f, c, c, f:2b
   +1b, a, a, a, d, d, g:2b
   +1b, bb, bb, bb, eb, eb, c, c,
   24|, d, g, g, g, g, g, g, g,
   25|, g:2b, R:...,
-  ],
   26|, R:3b, g, g:2b, g:2b,
   27|, g, ab, g, f, eb:2b, R:...,
   28||,
@@ -44,7 +42,9 @@
   38|, a, d, fs, a, R:...,
   39|, R:3b, d, d:2b, a:2b,
   40|, g:2b, c^:2b, d, R:...,
-  [ dynamic: 1, level: [~, -4], # doubling tenor
+  [ # doubling tenor
+    transpose: +12,
+    instrument: [guitar],  
   41|, R:3b, d, g, g, g, g,
   42|, f'--g'--f'--eb'--f'--d'--c'--d' -- eb'--f'--eb'--d'--eb'--c'--bb_'--c' -- d'--eb'--d'--c'--d'--bb_'--a_'--bb_'-- c'--d'--c'--bb_'--c'--a_'--g_'--a_'--
   bb_:2b
@@ -53,5 +53,10 @@
   45|, bb_:2b, ab_:4b, g_:2b
   +2b, fs_:2b, g_, g_, d, d,
   47|, d:2b
-  ],
+  ], R, g, g:2b, R, a,
+  48|, f, d, g:2b, g:2b, fs, d,
+  49|, d, g, g, eb, c:2b, e:2b,
+  50|, bb_:2b, c:2b, a_, d, d:2b,
+  51|, d:2b, d:2b, d:2b, d:2b,
+  52|
 ]
