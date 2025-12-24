@@ -27,9 +27,11 @@
   21|, c' b_' c' d' c' d' bb_' c' a_' g_' a_' bb_' a_' a_' bb_' c',
   22|, d' c' d' eb' d' eb' c' d' b_' a_' b_' c' b_' b_' c' d',
   23|, eb' d' eb' f' eb' f' d' eb' c' b_' c' d' c' eb' d' c',
-  24|, b_, b, c^, c^, c^, c^,
+  24|, b_, 
+  level: [-3],
+  b, c^, c^, c^, c^,
   b' c^' a' b',
-  25|, c^, eb, g, eb, R:...,
+  25|, c^, sustain: -1, eb, g, eb, R:...,
   ],
   26|, R:3b, d, eb:2b, d:2b,
   27|, c, c, b_:2b, c, R:...,
@@ -68,5 +70,18 @@
   ], fs, g, bb_,
   51|, a_' bb_' g_' a_' bb_' c' a_' g_' fs_,
   [sustain: true, dynamic: [~, 2;], d, e, fs],
-  52| 
+  [ instrument: [bit|bell], level: [-3],
+  52|, g' fs' g' a' g' a' g' f' e' d' e' f' e' e' fs' g',
+  53|, a' g' a' bb' a' bb' a' g' fs' e' fs' g' fs' fs' g' a',
+  54|, bb, fs, g, a, g, g_, g' bb' a' g',
+  55|, {note: fs:2b, sustain: [-2, -1]}, g:4b, fs:2b,
+  56|, g:2b
+  ],
+  instrument: [~, ~, bit], 
+  sustain: {value: [~, ~, 3], max: [~, ~, -2]},
+  level: [~, ~, -4;-8;-12],
+  d:2b, c, bb_, a_, g_,
+  57|, [sustain: -"1", fs_:2b, g_:4b, fs_:2b],
+  instrument: [~, ~, $delete], sustain: true, level: -2:2b; -5:2b; -8:2b; -11:2b,
+  58|, g_:...
 ]

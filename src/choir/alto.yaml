@@ -63,8 +63,13 @@
   ], [ 
     sustain: -2,
     instrument: [~, $delete],
+    level: +8,
   g:2b,
   51|, fs:2b, g:2b, fs:2b, sustain: true, level: -3; -4; -5; -6, dynamic: 1, fs:2b 
   ],
-  52|
-] 
+  level: +6; +3:..., dynamic: [~, 0],
+  52|, R, bb, bb, a, [sustain: -1, g:3b], bb,
+  53|, [sustain: -1, e:2b], a, a, [sustain: -1, a:3b], a,
+  54|, g, a, bb, a, [sustain: -1, g:3b], g,
+  55|, [sustain: -2, a:2b], [sustain: -1, g:2b, g:2b], fs:2b,
+  56|, [sustain: true, level: -3; -4; -5; -6; -7:..., g:4b]] 

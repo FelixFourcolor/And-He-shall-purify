@@ -79,5 +79,15 @@
   g_:2b,
   51|, bb:2b, g_:2b
   ], d, c, bb_, a_,
-  52|, g_
+  52|, g_,
+  [ sustain: {max: [2, ~]}, # doubling bass
+  g, a, bb, c^:3b, bb,
+  53|, a:2b, bb, c^, d^:3b, c^,
+  54|, bb, a, g, f, eb:3b, eb,
+  55|, d:2b, g_:2b, d:3b, d,
+  ],
+  56|, g_, a_, bb_, g_, c, d, eb:2b,
+  57|, d:2b, g_:2b, d:2b, d_:2b,
+  sustain: true, level: -2:2b; -5:2b; -8:2b; -11:2b,
+  58|, g_:8b
 ]

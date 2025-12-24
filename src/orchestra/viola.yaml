@@ -57,5 +57,12 @@
   49|, d, g, g, eb, c:2b, e:2b,
   50|, bb_:2b, c:2b, a_, d, d:2b,
   51|, d:2b, d:2b, d:2b, d:2b,
-  52|
+  52|, R, d, d, d, e:3b, e,
+  53|, e:2b, d, e, fs, a, d^:2b,
+  54|, g, a, bb, d, eb:3b, eb,
+  55|, a_, d, d:2b, d:3b, d,
+  56|, d:3b, g, g:2b, c:2b,
+  57|, d:2b, d:2b, d:2b, a_:2b,
+  instrument: [~, $delete], sustain: true, level: -2:2b; -5:2b; -8:2b; -11:2b,
+  58|, (bb_;d):...
 ]

@@ -61,7 +61,22 @@
   49|, g, 
   d, eb:4b, d:2b
   +2b, c:2b -- c' bb_' a_' c' bb_' a_' g_' g',
+  [ level: -2,
   51|, fs' g' e' fs' g' a' fs' g' a,
   [sustain: true, dynamic: [~, 2;], fs, g, a],
-  52|
+  level: -2,
+  52|, bb' a' bb' c^' bb' c^' bb' a' g' fs' g' a' g' g' a' bb',
+  53|, c^' bb' c^' d^' c^' d^' c^' bb' a' g' a' bb' a' a' bb' c^',
+  level: +4,
+  54|, d^, d, d^:4b, {note: c^:2b
+  +2b, sustain: -2}, 
+  level: -2,
+  bb:2b, {note: a:3b, trill: {length: [3, 5], value: bb}}, g,
+  56|, g
+  ], 
+  level: [~;-2:...;-4, +3;], 
+  [dynamic: [~, 2], d, g, f], eb, d, [sustain: -"1", c:2b
+  +1b], d, bb_, a_, {note: a_:3b, trill: {length: 3, value: bb_}, sustain: -"1"}, g_,
+  sustain: [4b, true], level: -2:2b; -5:2b; -8:2b; -11:2b,
+  58|, g_:...
 ]

@@ -65,9 +65,16 @@
   R:5b, a_,
   48|, d, d, d, [dynamic: 1, d], c'--d'--c'--bb_'--c'--a_'--g_'--a_'--
   bb_'--c'--bb_'--a_'--bb_'--g_'--fs_'--g_'--a_, a_,
-  [ sustain: -2, d:2b
+    sustain: -2, 
+    level: +4, 
+  d:2b
   +2b -- c:4b -- bb_:2b --
   a_:2b, bb_:2b, sustain: [-2, -1], a_:2b, sustain: true, level: -3; -4; -5; -6, dynamic: 1, a_:2b
-  ]],
-  52|
+  ],
+  level: [+7],
+  52|, R, g, g, f, [sustain: [-2], e:3b], g,
+  53|, [dynamic: [2], [sustain: -1, a:2b], a], g, [sustain: -1, fs:2b], d:2b,
+  54|, d, d, d, d, [sustain: -1, d:2b, c:2b],
+  55|, [sustain: -2, c:2b], [sustain: -1, bb_:2b], [sustain: [-2], {note: a_:3b, trill: bb_}], a_,
+  56|, [sustain: true, level: -3; -4; -5; -6; -7:..., dynamic: 1, g_:4b] 
 ]

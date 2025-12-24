@@ -61,5 +61,10 @@
   d^:2b,
   51|, d^:2b, d^:2b, sustain: [-2, -1], d^:2b, sustain: true, level: -3; -4; -5; -6, dynamic: 1, d^:2b 
   ],
-  52|
+  instrument: [~, pling|guitar], level: [~, -7],
+  52|, R, d^, d^, d^, [sustain: [-2], e^:3b], d^,
+  53|, [sustain: -1, c^:2b], d^, e^, [sustain: [-2], fs^:3b], fs^,
+  54|, d^, d^, d^, d^, [sustain: [-2], eb^:3b], eb^,
+  55|, [sustain: -2, fs:2b], [sustain: -1, g:2b, a:2b], d^:2b,
+  56|, [sustain: [false, true], level: -3; -4; -5:..., dynamic: 1, bb:4b]
 ]
