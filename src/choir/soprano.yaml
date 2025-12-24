@@ -58,13 +58,16 @@
   eb'--f'--eb'--d'--eb'--c'-- bb_'--c'-- d'--eb'--d'--c'--d'--bb_'--a_'--bb_'--
   c'--d'--c'--bb_'--c'--a_'--g_'--a_'-- bb_'--c'--bb_'--a_'--bb_'--d'--c'--bb_'--
   a_:2b
-  ], [ level: [+2], 
+  ], [ 
+    transpose: [~, +12], 
+    instrument: [bell, flute],
+    level: [+4, -4],
   R:5b, a_,
-  48|, d, d, d, [dynamic: 1, d],c'--d'--c'--bb_'--c'--a_'--g_'--a_'--
+  48|, d, d, d, [dynamic: 1, d], c'--d'--c'--bb_'--c'--a_'--g_'--a_'--
   bb_'--c'--bb_'--a_'--bb_'--g_'--fs_'--g_'--a_, a_,
   [ sustain: -2, d:2b
   +2b -- c:4b -- bb_:2b --
-  a_:2b, [dynamic: 1, bb_:2b], a_:2b, sustain: true, level: -3; -4; -5; -6, dynamic: 1, a_:2b
+  a_:2b, bb_:2b, sustain: [-2, -1], a_:2b, sustain: true, level: -3; -4; -5; -6, dynamic: 1, a_:2b
   ]],
   52|
 ]

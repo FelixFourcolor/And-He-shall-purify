@@ -42,14 +42,13 @@
   38|, a, d, fs, a, R:...,
   39|, R:3b, d, d:2b, a:2b,
   40|, g:2b, c^:2b, d, R:...,
-  [ # doubling tenor
-    transpose: +12,
-    instrument: [guitar],  
+  [ dynamic: [~, 0], # doubling tenor
   41|, R:3b, d, g, g, g, g,
-  42|, f'--g'--f'--eb'--f'--d'--c'--d' -- eb'--f'--eb'--d'--eb'--c'--bb_'--c' -- d'--eb'--d'--c'--d'--bb_'--a_'--bb_'-- c'--d'--c'--bb_'--c'--a_'--g_'--a_'--
-  bb_:2b
+  42|, f' g' f' eb' f' d' c' d', eb' f' eb' d' eb' c' bb_' c',
+  43|, d' eb' d' c' d' bb_' a_' bb_', c' d' c' bb_' c' a_' g_' a_',
+  44|, bb_:2b, R:4b,
   ], [ transpose: [+12, ~], # doubling bass
-  R:4b, bb_:2b,
+  bb_:2b,
   45|, bb_:2b, ab_:4b, g_:2b
   +2b, fs_:2b, g_, g_, d, d,
   47|, d:2b

@@ -45,7 +45,7 @@
   38|, [dynamic: 1, sustain: -1, a:2b, {note: a:2b, sustain: true, level: -3; -4; -5; -6}], R:...,
   39|, R:3b, d^, bb:2b, c^:2b,
   40|, d^--g^, [dynamic: 1, {note: fs^:2b, trill: g^}, {note: g^:2b, sustain: true, level: -3; -4; -5; -6}], R:...,
-  ],
+  ], [ instrument: [~, pling|guitar], level: [~, -4],
   41|, R:3b, d^, g^, g^, g^, [dynamic: 1, g^],
   42|, f^', [ dynamic: 1,
   g^' f^' eb^' f^' d^' c^' d^' eb^' f^' eb^' d^' eb^' c^' bb' c^' d^' eb^' d^' c^' d^' bb' a' bb' c^' d^' c^' bb' c^' a' g' a' bb' c^' bb' a' bb' d^' c^' d^' eb^' d^',
@@ -57,9 +57,9 @@
   bb'--c^'--bb'--a'--bb'--g'--fs'--g'--a, a, d^:2b
   +1b, bb, eb^:4b -- d^ -- bb:1b
   +2b -- c^:2b -- a, [dynamic: 1, d^],
-  [ sustain: -2,
+  ], [ sustain: -2,
   d^:2b,
-  51|, d^:2b, [dynamic: 1, d^:2b], d^:2b, sustain: true, level: -3; -4; -5; -6, dynamic: 1, d^:2b 
+  51|, d^:2b, d^:2b, sustain: [-2, -1], d^:2b, sustain: true, level: -3; -4; -5; -6, dynamic: 1, d^:2b 
   ],
   52|
 ]
