@@ -79,7 +79,7 @@
   ],
   instrument: [~, ~, bit], 
   sustain: {value: [~, ~, 3], max: [~, ~, -2]},
-  level: [~, ~, -4;-8;-12],
+  level: [~, ~, -5;-9;-13],
   d:2b, c, bb_, a_, g_,
   57|, [sustain: -"1", fs_:2b, g_:4b, fs_:2b],
   instrument: [~, ~, $delete], sustain: true, level: -2:2b; -5:2b; -8:2b; -11:2b,
